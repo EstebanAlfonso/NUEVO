@@ -44,11 +44,5 @@ public class Fecha {
 	public String toString() {
 		return "Fecha [dia=" + dia + ", mes=" + mes + ", año=" + año + "]";
 	}
-
-	public static void main(String[] args) {
-		Fecha f = new Fecha(DayOfWeek.of(1), Month.of(2), Year.of(2013));
-		
-		System.out.println(f);
-	}
 	
 }
